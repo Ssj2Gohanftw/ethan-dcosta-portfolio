@@ -6,9 +6,7 @@ import ToolsSection from "./components/tools-section";
 import ProjectsSection from "./components/project-section";
 import ContactSection from "@/components/contacts-section";
 import { Separator } from "./components/ui/separator";
-// import BackGround from "./components/background";
-// import BackGround from "./components/background";
-// import { FollowCursorAnimation } from "./data/animations";
+import BackGround from "./components/background";
 // import useDesktop from "./hooks/useDesktop";
 function App() {
   // const isDesktop = useDesktop("(min-width:769px)");
@@ -16,7 +14,7 @@ function App() {
     <>
       <Navbar className="p-0" />
       <div className="p-10">
-        {/* <BackGround /> */}
+        <BackGround />
         <div style={{ position: "relative", zIndex: 0 }}>
           <HeroSection />
           <Separator className="mt-10 mb-5" />

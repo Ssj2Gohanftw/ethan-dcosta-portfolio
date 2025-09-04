@@ -16,7 +16,7 @@ const HeroSection = () => {
             handle="ssj2gohanftw"
             status="Online"
             contactText="Contact Me"
-            avatarUrl="../../assets/images/me.jpg"
+            avatarUrl="public\assets\images\me.jpg"
             showUserInfo={true}
             enableTilt={true}
             enableMobileTilt={true}
