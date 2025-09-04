@@ -7,12 +7,12 @@ const skills = [
   {
     id: 2,
     skillName: "CSS",
-    imgSrc: "../assets/icons/css3-alt-brands-solid.svg",
+    imgSrc: "./assets/icons/css3-alt-brands-solid.svg",
   },
   {
     id: 3,
     skillName: "JavaScript",
-    imgSrc: "../assets/icons/js-brands-solid.svg",
+    imgSrc: "./assets/icons/js-brands-solid.svg",
   },
   {
     id: 4,
@@ -23,22 +23,22 @@ const skills = [
   {
     id: 5,
     skillName: "Kotlin",
-    imgSrc: "../assets/icons/Kotlin.svg",
+    imgSrc: "./assets/icons/Kotlin.svg",
   },
   {
     id: 6,
     skillName: "C",
-    imgSrc: "../assets/icons/c.svg",
+    imgSrc: "./assets/icons/c.svg",
   },
   {
     id: 7,
     skillName: "Java",
-    imgSrc: "../assets/icons/java.svg",
+    imgSrc: "./assets/icons/java.svg",
   },
   {
     id: 8,
     skillName: "Next.js",
-    imgSrc: "../assets/icons/nextjs-icon-dark-background.svg",
+    imgSrc: "./assets/icons/nextjs-icon-dark-background.svg",
   },
 ];
 export default skills;

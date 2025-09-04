@@ -9,7 +9,7 @@ const BackGround = () => {
         left: 0,
         width: "100vw", // Full viewport width
         height: "100vh", // Full viewport height
-        zIndex: -5, // Push it behind all content
+        zIndex: -4, // Push it behind all content
         pointerEvents: "none", // Prevents blocking clicks
       }}
     >
