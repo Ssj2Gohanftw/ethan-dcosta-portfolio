@@ -1,4 +1,9 @@
-import { Instagram, Twitter, Linkedin, Github } from "lucide-react";
+import {
+  SiX as X,
+  SiInstagram as Instagram,
+  SiGithub as Github,
+} from "@icons-pack/react-simple-icons";
+import { Linkedin } from "lucide-react";
 const contactLinks = [
   {
     id: 1,
@@ -9,7 +14,7 @@ const contactLinks = [
   {
     id: 2,
     link: "https://x.com/ssj2Gohanftw",
-    icon: Twitter,
+    icon: X,
     label: "X.com",
   },
   {

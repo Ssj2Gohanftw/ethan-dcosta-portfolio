@@ -14,5 +14,12 @@ const portfolioProjects = [
     imgSrc: "./assets/images/FinanSeer.png",
     projLink: "https://github.com/Ssj2Gohanftw/FinanSEER",
   },
+  // {
+  //   id: 3,
+  //   projName: "SteamDB Analysis ",
+  //   projDesc: "A dashboard for analyzing game data on Steam",
+  //   imgSrc: "./assets/images/FinanSeer.png",
+  //   projLink: "https://github.com/Ssj2Gohanftw/steam-analysis-dashboard",
+  // },
 ];
 export default portfolioProjects;

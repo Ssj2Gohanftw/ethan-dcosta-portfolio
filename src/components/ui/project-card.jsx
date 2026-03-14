@@ -6,8 +6,9 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import PixelTransition from "../PixelTransition";
-// import { Card } from "@/components/ui/card";
+import { useIsMobile } from "@/lib/hooks/use-mobile";
 const ProjectCard = ({ projects }) => {
+  const isMobile = useIsMobile(768);
   return (
     <Carousel className="w-full max-w-xl mx-auto ">
       <CarouselContent>
@@ -16,31 +17,42 @@ const ProjectCard = ({ projects }) => {
             key={project.id}
             className="flex flex-col justify-center items-center"
           >
-            {/* <Card className="relative group overflow-hidden"> */}
             <a
               href={project.projLink}
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:underline mt-2"
             >
-              <PixelTransition
-                firstContent={
+              {isMobile ? (
+                <div className="flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-70 p-4">
                   <img
-                    className="w-full h-64 object-contain"
+                    className="w-full object-fill"
                     src={project.imgSrc}
                     alt={project.projName}
                   />
-                }
-                secondContent={
-                  <div className="flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-70 p-4">
-                    <p className="text-center text-white">{project.projDesc}</p>
-                  </div>
-                }
-                gridSize={12}
-                pixelColor="#ffffff"
-                animationStepDuration={0.4}
-              />
-              {/* </Card> */}
+                  <p className="text-center text-white">{project.projDesc}</p>
+                </div>
+              ) : (
+                <PixelTransition
+                  firstContent={
+                    <img
+                      className="w-full object-fill"
+                      src={project.imgSrc}
+                      alt={project.projName}
+                    />
+                  }
+                  secondContent={
+                    <div className="flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-70 p-4">
+                      <p className="text-center text-white">
+                        {project.projDesc}
+                      </p>
+                    </div>
+                  }
+                  gridSize={12}
+                  pixelColor="#ffffff"
+                  animationStepDuration={0.4}
+                />
+              )}
             </a>
           </CarouselItem>
         ))}

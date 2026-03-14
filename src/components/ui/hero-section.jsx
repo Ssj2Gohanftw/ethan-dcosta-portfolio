@@ -21,12 +21,16 @@ const HeroSection = () => {
             enableTilt={true}
             enableMobileTilt={true}
             innerGradient={false}
+            behindGlowEnabled={false}
             className="p-2"
           />
         </div>
 
         <div className="flex items-center justify-center flex-1/2">
-          <SplitText className="text-5xl" text="Heya! I'm Ethan D'Costa" />
+          <SplitText
+            className="text-3xl lg:text-4xl"
+            text="Heya! I'm Ethan D'Costa"
+          />
         </div>
         <div className="flex items-center justify-center flex-1/2">
           <TextType text={text} className="text-xl" />

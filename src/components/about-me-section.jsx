@@ -1,7 +1,7 @@
 import { Button } from "./ui/button";
 const AboutMeSection = () => {
   return (
-    <section id="about-me">
+    <section id="about-me" className="mt-10 mb-5">
       <div className="about">
         <p className="intro-content pb-3">
           I design apps that are great to use and look at.Whether it may be
@@ -17,18 +17,18 @@ const AboutMeSection = () => {
           games,listening to music and more.
         </p>
         <p className="intro-content pb-3">
-          If you've liked what you've read so far do check out my site to learn
-          more about me!
+          If you've liked what you've read so far do read on to learn more about
+          me!
         </p>
         <div className="justify-center items-center">
           <a
             className=""
             download="EthanDcosta_resume"
-            href="../docs/My_Resume_2024.pdf"
+            href="public\docs\My_Resume_2024.pdf"
           >
             <Button
               variant="secondary"
-              className="text-[black] hover:bg-gray-400 hover:text-[white]"
+              className="text-[black] hover:bg-gray-400 hover:text-[white] cursor-pointer"
             >
               Download My CV
             </Button>

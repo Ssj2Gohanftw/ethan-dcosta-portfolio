@@ -1,12 +1,11 @@
 /* eslint-disable no-unused-vars */
 // Example: src/components/ContactSection.jsx
 import contactLinks from "@/data/contactlinks";
-import { Icon } from "lucide-react";
 const ContactSection = () => {
   return (
-    <section id="contact">
+    <section id="contact" className="mt-10 mb-5">
       <div className="contact-me">
-        <h1 className="headings">CONTACT ME</h1>
+        <h1 className="headings">Contact Me</h1>
         <p className="descriptions">Follow me On</p>
         <div className="flex flex-row">
           {contactLinks.map(({ id, link, icon: Icon, label }) => (

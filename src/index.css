@@ -12,7 +12,7 @@ body {
   @apply flex justify-center items-center h-1/2 flex-col;
 }
 .intro-content {
-  @apply text-[white] text-xl/loose md:text-4xl/relaxed sm:text-2xl/relaxed;
+  @apply text-[white] text-xl/loose md:text-3xl/relaxed sm:text-2xl/relaxed;
 }
 .cv-btn {
   @apply p-[10px] pb-10 bg-blue-200 text-black rounded-[5px] border-none text-[25px] 
