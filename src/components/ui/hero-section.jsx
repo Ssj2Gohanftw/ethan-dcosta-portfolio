@@ -21,7 +21,7 @@ const HeroSection = () => {
             enableTilt={true}
             enableMobileTilt={true}
             innerGradient={false}
-            behindGlowEnabled={false}
+            behindGlowEnabled={true}
             className="p-2"
           />
         </div>

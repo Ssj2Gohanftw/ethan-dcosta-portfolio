@@ -34,12 +34,11 @@ body {
   @apply bg-black h-[200vh] p-20;
 }
 .descriptions {
-  @apply text-white m-10 text-xl md:text-3xl sm:text-2xl;
+  @apply text-white m-5 text-xl md:text-3xl sm:text-2xl;
 }
 .card-description {
   @apply text-center mr-5 pt-1;
 }
-
 .card-content {
   position: absolute;
   top: 0;

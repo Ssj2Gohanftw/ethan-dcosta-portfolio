@@ -28,7 +28,7 @@ const AboutMeSection = () => {
           >
             <Button
               variant="secondary"
-              className="text-[black] hover:bg-gray-400 hover:text-[white] cursor-pointer"
+              className="text-[black] hover:bg-accent-foreground hover:text-[white] cursor-pointer p-4"
             >
               Download My CV
             </Button>

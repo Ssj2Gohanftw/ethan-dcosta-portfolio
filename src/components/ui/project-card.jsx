@@ -21,12 +21,12 @@ const ProjectCard = ({ projects }) => {
               href={project.projLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white hover:underline mt-2"
+              className="text-white"
             >
               {isMobile ? (
                 <div className="flex flex-col items-center justify-center w-full h-full bg-black bg-opacity-70 p-4">
                   <img
-                    className="w-full object-fill"
+                    className="object-fill rounded-2xl"
                     src={project.imgSrc}
                     alt={project.projName}
                   />
