@@ -1,10 +1,10 @@
 import SplitText from "@/components/SplitText";
 import ProfileCard from "@/components/ProfileCard";
-import TextType from "../TextType";
-const text = [
-  "An aspiring Software Developer based in Goa,India!",
-  "I build beautiful applications for the Web and Mobile",
-];
+// import TextType from "../TextType";
+// const text = [
+//   "An aspiring Software Developer based in Goa,India!",
+//   "I build beautiful applications for the Web and Mobile",
+// ];
 const HeroSection = () => {
   return (
     <section id="hero">
@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="flex items-center justify-center flex-1/2">
           <ProfileCard
             name="Ethan D'Costa"
-            title="Aspiring Software Developer"
+            title="Software Developer"
             handle="ssj2gohanftw"
             status="Online"
             contactText="Contact Me"
@@ -20,9 +20,10 @@ const HeroSection = () => {
             showUserInfo={true}
             enableTilt={true}
             enableMobileTilt={true}
-            innerGradient={false}
-            behindGlowEnabled={true}
             className="p-2"
+            behindGlowEnabled={false}
+            innerGradient="linear-gradient(145deg,#60496e8c 0%,#71C4FF44 100%)"
+            behindGlowSize={"0%"}
           />
         </div>
 
@@ -33,7 +34,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="flex items-center justify-center flex-1/2">
-          <TextType text={text} className="text-xl" />
+          {/* <p className="text-xl">d </p> */}
         </div>
       </div>
     </section>

@@ -4,12 +4,21 @@ const AboutMeSection = () => {
     <section id="about-me" className="mt-10 mb-5">
       <div className="about">
         <p className="intro-content pb-3">
-          I design apps that are great to use and look at.Whether it may be
-          mobile or web apps you are guaranteed to have a delightful experience.
+          I'm a software engineer who enjoys building modern, scalable
+          applications with a strong focus on clean architecture, performance,
+          and user experience. Whether it's designing backend services,
+          developing web applications, or creating mobile experiences, I enjoy
+          turning ideas into reliable software.
         </p>
         <p className="intro-content pb-3">
-          I primarily have experience in technologies like
-          Next.js,MongoDB,Firebase and Jetpack Compose for Android Applications
+          I primarily have experience in technologies like .NET,
+          Next.js,MongoDB,Firebase,PostgreSQl and Jetpack Compose for Android
+          Applications
+        </p>
+        <p className="intro-content pb-3">
+          I'm always looking for opportunities to learn, improve, and take on
+          new technical challenges. I believe in writing clean, maintainable
+          code and building solutions that are both practical and scalable.
         </p>
         <p className="intro-content pb-3 ">
           Whenever I feel bored out of my mind or I'm need of something to turn

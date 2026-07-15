@@ -1,7 +1,5 @@
 import Navbar from "./components/nav-bar";
 import HeroSection from "./components/ui/hero-section";
-// import { Separator } from "./components/ui/separator";
-import BackGround from "./components/background";
 import { lazy, Suspense } from "react";
 import { Spinner } from "./components/ui/spinner";
 
@@ -14,7 +12,6 @@ function App() {
     <>
       <Navbar className="p-0" />
       <div className="p-10">
-        <BackGround />
         <div style={{ position: "relative", zIndex: 0 }}>
           <HeroSection />
           <Suspense

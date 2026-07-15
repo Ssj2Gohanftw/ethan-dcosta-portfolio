@@ -16,7 +16,7 @@ const ContactSection = () => {
               rel="noopener noreferrer"
               aria-label={label}
             >
-              <Icon size={40} className="h-10 flex m-5" />
+              <Icon size={30} className="h-10 flex m-5" />
             </a>
           ))}
         </div>
